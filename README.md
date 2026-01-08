@@ -13,7 +13,7 @@ https://github.com/afiskon/stm32-ssd1306
 このプロジェクトをチェックアウトした後、以下のコマンドを実行するとライブラリがチェックアウトされます。
 
 ```
-git update --init --recursive
+git submodule update --init --recursive
 ```
 
 馬のアニメーションは ControllersTech のチュートリアルで配布されているものを使いました。
