@@ -16,5 +16,13 @@ https://github.com/afiskon/stm32-ssd1306
 git submodule update --init --recursive
 ```
 
+SWD プログラマでプログラミング確認しました。ピン接続は以下の通りです。
+
+| デバイス  | プログラマ |
+| --------- | ---------- |
+| PA13 (24) | SWDIO      |
+| PA14 (25) | SWCLK      |
+| NRST (6)  | RST        |
+
 馬のアニメーションは ControllersTech のチュートリアルで配布されているものを使いました。
 https://controllerstech.com/oled-display-using-i2c-stm32/
