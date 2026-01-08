@@ -2,6 +2,8 @@
 
 STM32C092KCT6 から OLED ディスプレイ SSD1306 に接続する例です。STM32CubeIDE プロジェクトです。
 
+一から設定する手順は[ブログ記事](https://gaje.jp/2026/01/07/8167/)をご参考にどうそ。
+
 以下の配線で I2C2 から制御します。
 
 ![配線図](doc/wiring.png)
@@ -26,3 +28,4 @@ SWD プログラマでプログラミング確認しました。ピン接続は�
 
 馬のアニメーションは ControllersTech のチュートリアルで配布されているものを使いました。
 https://controllerstech.com/oled-display-using-i2c-stm32/
+
