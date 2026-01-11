@@ -16,6 +16,9 @@ SWD プログラマでプログラミング確認しました。ピン接続は�
 | PA14 (25) | SWCLK      |
 | NRST (6)  | RST        |
 
+馬のアニメーションは ControllersTech のチュートリアルで配布されているものを使いました。
+https://controllerstech.com/oled-display-using-i2c-stm32/
+
 ## C STM32CubeIDE プロジェクト
 一から設定する手順は[ブログ記事](https://gaje.jp/2026/01/07/8167/)をご参考にどうそ。
 
@@ -30,8 +33,12 @@ git submodule update --init --recursive
 ```
 
 ## Rust Embassy プロジェクト
-TBD
+`rust-project` ディレクトリに移動し、プログラマをつなげた後以下を実行すれば動作します。
 
-馬のアニメーションは ControllersTech のチュートリアルで配布されているものを使いました。
-https://controllerstech.com/oled-display-using-i2c-stm32/
+```
+cargo build --release
+cargo run --release
+```
+
+内容については、[ブログ記事](https://gaje.jp/2026/01/10/8218/)も参考にしてみてください。
 
